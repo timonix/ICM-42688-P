@@ -1,0 +1,2 @@
+IO_LOC "i_clk" 52;
+IO_LOC "i_rst" 3;

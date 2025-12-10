@@ -1,0 +1,25 @@
+{
+  "Include": [
+    "*.vhd",
+    "*.vhdl",
+    "*.v",
+    "*.vcd",
+    "vhdl_ls.toml",
+    "*.ghw"
+  ],
+  "Exclude": [
+    "build"
+  ],
+  "Loader": "Gowin",
+  "Toolchain": "Gowin",
+  "TopEntity": "top_brute.vhd",
+  "CompileExcluded": [
+    "ICM_42688_P.vhd"
+  ],
+  "TestBenches": [
+    "tb_brute_42688.vhd"
+  ],
+  "VHDL_Standard": "08",
+  "Fpga": "TangNano9K",
+  "GHDL_Libraries": []
+}

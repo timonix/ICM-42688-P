@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1NR-9C" package="QFN88P" speed="6" partNumber="GW1NR-LV9QN88PC6/I5"/>
+    <FileList>
+        <File path="C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd" type="vhdl"/>
+        <File path="C:\Users\NoPass\git\ICM-42688-P\brute_pkg.vhd" type="vhdl"/>
+        <File path="C:\Users\NoPass\git\ICM-42688-P\ICM_timing_pkg.vhd" type="vhdl"/>
+        <File path="C:\Users\NoPass\git\ICM-42688-P\tb_brute_42688.vhd" type="vhdl"/>
+        <File path="C:\Users\NoPass\git\ICM-42688-P\top_brute.vhd" type="vhdl"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="global_freq" value="50.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Users\NoPass\git\ICM-42688-P\impl\gwsynthesis\project.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="top_module" value="top_brute"/>
+        <Option type="vcc" value="1.2"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+        <Option type="vhdl_language" value="vhdl-2008"/>
+    </OptionList>
+</Project>

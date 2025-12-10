@@ -1,0 +1,139 @@
+GowinSynthesis start
+Running parser ...
+Analyzing VHDL file 'C:\Users\NoPass\git\ICM-42688-P\brute_pkg.vhd'
+Analyzing package 'brute_pkg'("C:\Users\NoPass\git\ICM-42688-P\brute_pkg.vhd":7)
+Analyzing package body 'brute_pkg'("C:\Users\NoPass\git\ICM-42688-P\brute_pkg.vhd":60)
+Analyzing VHDL file 'C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd'
+Analyzing entity 'brute_42688'("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":7)
+Analyzing architecture 'rtl'("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":33)
+Analyzing VHDL file 'C:\Users\NoPass\git\ICM-42688-P\ICM_timing_pkg.vhd'
+Analyzing package 'icm_timing_pkg'("C:\Users\NoPass\git\ICM-42688-P\ICM_timing_pkg.vhd":5)
+Analyzing package body 'icm_timing_pkg'("C:\Users\NoPass\git\ICM-42688-P\ICM_timing_pkg.vhd":47)
+Analyzing VHDL file 'C:\Users\NoPass\git\ICM-42688-P\tb_brute_42688.vhd'
+Analyzing entity 'tb_brute_42688'("C:\Users\NoPass\git\ICM-42688-P\tb_brute_42688.vhd":12)
+Analyzing architecture 'sim'("C:\Users\NoPass\git\ICM-42688-P\tb_brute_42688.vhd":15)
+Analyzing VHDL file 'C:\Users\NoPass\git\ICM-42688-P\top_brute.vhd'
+Analyzing entity 'top_brute'("C:\Users\NoPass\git\ICM-42688-P\top_brute.vhd":6)
+Analyzing architecture 'rtl'("C:\Users\NoPass\git\ICM-42688-P\top_brute.vhd":19)
+Statement containing an event control without an edged expression will not be converted to an explicit state machine("C:\Users\NoPass\git\ICM-42688-P\tb_brute_42688.vhd":74)
+Statement containing an event control without an edged expression will not be converted to an explicit state machine("C:\Users\NoPass\git\ICM-42688-P\tb_brute_42688.vhd":86)
+Statement containing an event control without an edged expression will not be converted to an explicit state machine("C:\Users\NoPass\git\ICM-42688-P\tb_brute_42688.vhd":93)
+Processing 'top_brute(rtl)'("C:\Users\NoPass\git\ICM-42688-P\top_brute.vhd":6)
+WARN  (EX4206) : Using initial value for 's_debug' since it is never assigned("C:\Users\NoPass\git\ICM-42688-P\top_brute.vhd":21)
+Processing 'brute_42688(g_speed_divider=4,g_number_of_units=1)(rtl)'("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":7)
+NOTE  (EX0101) : Current top module is "top_brute"
+WARN  (EX0211) : The output port "o_gyro.x[15]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.x[14]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.x[13]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.x[12]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.x[11]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.x[10]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.x[9]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.x[8]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.x[7]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.x[6]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.x[5]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.x[4]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.x[3]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.x[2]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.x[1]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.x[0]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.y[15]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.y[14]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.y[13]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.y[12]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.y[11]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.y[10]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.y[9]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.y[8]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.y[7]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.y[6]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.y[5]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.y[4]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.y[3]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.y[2]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.y[1]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.y[0]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.z[15]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.z[14]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.z[13]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.z[12]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.z[11]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.z[10]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.z[9]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.z[8]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.z[7]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.z[6]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.z[5]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.z[4]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.z[3]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.z[2]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.z[1]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_gyro.z[0]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":21)
+WARN  (EX0211) : The output port "o_acc.x[15]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.x[14]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.x[13]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.x[12]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.x[11]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.x[10]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.x[9]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.x[8]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.x[7]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.x[6]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.x[5]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.x[4]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.x[3]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.x[2]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.x[1]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.x[0]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.y[15]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.y[14]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.y[13]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.y[12]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.y[11]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.y[10]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.y[9]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.y[8]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.y[7]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.y[6]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.y[5]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.y[4]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.y[3]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.y[2]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.y[1]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.y[0]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.z[15]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.z[14]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.z[13]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.z[12]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.z[11]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.z[10]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.z[9]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.z[8]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.z[7]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.z[6]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.z[5]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.z[4]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.z[3]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.z[2]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.z[1]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+WARN  (EX0211) : The output port "o_acc.z[0]" of module "brute_42688(g_speed_divider=4,g_number_of_units=1)" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\NoPass\git\ICM-42688-P\brute_42688.vhd":22)
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\NoPass\git\ICM-42688-P\impl\gwsynthesis\project.vg" completed
+[100%] Generate report file "C:\Users\NoPass\git\ICM-42688-P\impl\gwsynthesis\project_syn.rpt.html" completed
+GowinSynthesis finish

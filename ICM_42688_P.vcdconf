@@ -1,0 +1,34 @@
+{
+  "OpenSignals": [
+    {
+      "Id": "%",
+      "DataType": 4,
+      "AutomaticFixedPointShift": false,
+      "FixedPointShift": 0
+    },
+    {
+      "Id": "\u0026",
+      "DataType": 4,
+      "AutomaticFixedPointShift": false,
+      "FixedPointShift": 0
+    },
+    {
+      "Id": "\u0027",
+      "DataType": 4,
+      "AutomaticFixedPointShift": false,
+      "FixedPointShift": 0
+    },
+    {
+      "Id": "(",
+      "DataType": 4,
+      "AutomaticFixedPointShift": false,
+      "FixedPointShift": 0
+    },
+    {
+      "Id": ")",
+      "DataType": 4,
+      "AutomaticFixedPointShift": false,
+      "FixedPointShift": 0
+    }
+  ]
+}
